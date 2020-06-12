@@ -7,7 +7,6 @@ import com.netflix.zuul.exception.ZuulException;
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import javax.servlet.http.HttpServletRequest;
 
 public class AccessFilter extends ZuulFilter {
@@ -57,7 +56,7 @@ public class AccessFilter extends ZuulFilter {
         String accessToken = request.getHeader("accessToken");//这里我把token写进headers中了
         //这里简单校验下如果headers中没有这个accessToken或者该值为空的情况
         //那么就拦截不入放行，返回401状态码
-        if (StringUtils.isEmpty(accessToken)) {
+        if (StringUtils.isEmpty(accessToken)){
             logger.info("当前请求没有accessToken");
             ctx.setSendZuulResponse(false);
             ctx.setResponseStatusCode(401);

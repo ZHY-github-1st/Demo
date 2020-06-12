@@ -38,7 +38,7 @@ public class UserController {
     private UploadUser uploadUser;
 
     @RequestMapping("/test")
-    public void getImgUrl(HttpServletRequest request) throws Exception {
+    public void getImgUrl(HttpServletRequest request) throws Exception{
 //        QueryWrapper<User> wrapper = new QueryWrapper<>();
 //        wrapper.apply("id = {0}","2")
 //                .inSql("username","select username from user where username like '%龙'");
@@ -68,7 +68,7 @@ public class UserController {
 //    }
 
     @RequestMapping("/video")
-    public void getVideoUrl(HttpServletRequest request) {
+    public void getVideoUrl(HttpServletRequest request){
         HttpSession session = request.getSession();
         String obj = "d://QQ空间视频_20200506163351.mp4";
         File file = new File(obj);
@@ -79,24 +79,22 @@ public class UserController {
     }
 
     @GetMapping("/getSTS")
-    public AssumeRoleResponse getSTS() {
+    public AssumeRoleResponse getSTS(){
         AssumeRoleResponse response = (AssumeRoleResponse) uploadUser.getSTS("", "", "").getObject();
         String accessKeyId = response.getCredentials().getAccessKeyId();
         String accessKeySecret = response.getCredentials().getAccessKeySecret();
         String securityToken = response.getCredentials().getSecurityToken();
-        System.out.println("accessKeyId:" + accessKeyId + "\n" + "accessKeySecret:" + accessKeySecret + "\n" + "securityToken:" + "\n" + securityToken);
-        OSS oss = new OSSClientBuilder().build("http://oss-cn-beijing.aliyuncs.com", response.getCredentials().getAccessKeyId(), response.getCredentials().getAccessKeySecret(), response.getCredentials().getSecurityToken());
+        System.out.println("accessKeyId:"+accessKeyId+"\n"+"accessKeySecret:"+accessKeySecret+"\n"+"securityToken:"+"\n"+securityToken);
+        OSS oss = new OSSClientBuilder().build("http://oss-cn-beijing.aliyuncs.com", response.getCredentials().getAccessKeyId(), response.getCredentials().getAccessKeySecret(),response.getCredentials().getSecurityToken());
         Date expiration = new Date(new Date().getTime() + 3600 * 10000);
         URL url = oss.generatePresignedUrl("zlife-file", "test.jpg", expiration);
         System.out.println(url);
         return response;
     }
-
     @GetMapping(value = "/users")
     public List<User> getUserList() {
         return userRepository.findAll();
     }
-
     /**
      * 增
      *

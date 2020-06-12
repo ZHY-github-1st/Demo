@@ -7,15 +7,13 @@ import com.example.user.pojo.User;
 import org.springframework.stereotype.Service;
 
 @Service
-public class UserServiceImp extends ServiceImpl<UserMapper, User> implements UserService {
-    public String getSuffix(String fileName) {
+public class UserServiceImp extends ServiceImpl<UserMapper,User> implements UserService {
+    public String getSuffix(String fileName){
         return fileName.substring(fileName.lastIndexOf("."));
     }
-
-    public String getObjName(String fileName) {
-        return fileName.substring(fileName.lastIndexOf("/") + 1);
+    public String getObjName(String fileName){
+        return fileName.substring(fileName.lastIndexOf("/")+ 1 );
     }
-
     public String getcontentType(String filenameExtension) {
         if (filenameExtension.equalsIgnoreCase("bmp")) {
             return "image/bmp";
@@ -45,7 +43,7 @@ public class UserServiceImp extends ServiceImpl<UserMapper, User> implements Use
         if (filenameExtension.equalsIgnoreCase("xml")) {
             return "text/xml";
         }
-        if (filenameExtension.equalsIgnoreCase(".mp4")) {
+        if (filenameExtension.equalsIgnoreCase(".mp4")){
             return "video/mpeg4";
         }
         return "image/jpg";

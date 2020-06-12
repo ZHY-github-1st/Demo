@@ -50,15 +50,13 @@ public class UploadUser {
         this.accessKeyId = accessKeyId;
         return ossClient;
     }
-
-    //    acs:ram::1616591087457048:role/cs
-    private String getRoleArn() {
+//    acs:ram::1616591087457048:role/cs
+    private String getRoleArn(){
         return "acs:ram::1616591087457048:role/cs";
     }
 //    private String getRoleArn(String accountId,String roleName){
 //        return new String("asc:ram::"+accountId+":role/"+roleName);
 //    }
-
     /**
      * * 上传到OSS服务器 如果同名文件会覆盖服务器上的
      * *
@@ -81,13 +79,13 @@ public class UploadUser {
             omd.setContentType(type);
             omd.setCacheControl("no-catch");
             omd.setHeader("Pragma", "no-cache");
-            omd.setContentDisposition("inline;filename=\"" + fileName + "\"");
+            omd.setContentDisposition("inline;filename=\""+ fileName+"\"");
 //            oss.putObject(bucketName, uploadFile.getName(), inputStream);
-            PutObjectResult putresult = oss.putObject(bucketName, uploadFile.getName(), inputStream, omd);
-            return new JsonResult(true, "上传成功", getUrl(uploadFile));
+            PutObjectResult putresult = oss.putObject(bucketName,uploadFile.getName() , inputStream, omd);
+            return new JsonResult(true,"上传成功",getUrl(uploadFile));
         } catch (IOException e) {
             e.printStackTrace();
-            return new JsonResult(false, "上传失败");
+            return new JsonResult(false,"上传失败");
         }
     }
 
@@ -107,8 +105,8 @@ public class UploadUser {
         String url = oss.generatePresignedUrl(bucketName, uploadFile.getName(), expiration).toString();
         HashMap<Object, Object> hashMap = new HashMap<>();
 //        String url = oss.generatePresignedUrl(bucketName, videoPath + uploadFile.getOriginalFilename(), expiration).toString();
-        HashMap map = new HashMap<String, Object>();
-        map.put("key", uploadFile.getName());
+        HashMap map = new HashMap<String,Object>();
+        map.put("key",uploadFile.getName());
 //        map.put("key", videoPath + uploadFile.getOriginalFilename());
         map.put("url", url);
         return map;
@@ -133,7 +131,7 @@ public class UploadUser {
         // 上传  --> 不带进度条上传
 //        ossClient.putObject(bucketNamePrivate, videoPath + uploadFile.getOriginalFilename(), new ByteArrayInputStream(uploadFile.getBytes()));
         // 上传 --> 带进度条上传
-        oss.putObject(new PutObjectRequest(bucketName, uploadFile.getName(), uploadFile).withProgressListener(new PutObjectProgressListener(session)));
+        oss.putObject(new PutObjectRequest(bucketName,uploadFile.getName(),uploadFile).withProgressListener(new PutObjectProgressListener(session)));
 //        oss.putObject(new PutObjectRequest(bucketName, videoPath + uploadFile.getOriginalFilename(),f).withProgressListener(new PutObjectProgressListener(session)));
         // 关闭client
         oss.shutdown();
@@ -142,14 +140,14 @@ public class UploadUser {
         //取出文件上传路径
         String url = oss.generatePresignedUrl(bucketName, uploadFile.getName(), expiration).toString();
 //        String url = oss.generatePresignedUrl(bucketName, videoPath + uploadFile.getOriginalFilename(), expiration).toString();
-        HashMap map = new HashMap<String, Object>();
-        map.put("key", uploadFile.getName());
+        HashMap map = new HashMap<String,Object>();
+        map.put("key",uploadFile.getName());
 //        map.put("key", videoPath + uploadFile.getOriginalFilename());
         map.put("url", url);
         return map;
     }
 
-    public class PutObjectProgressListener implements ProgressListener {
+    public  class PutObjectProgressListener implements ProgressListener {
         private long bytesWritten = 0;
         private long totalBytes = -1;
         private boolean succeed = false;
@@ -206,6 +204,9 @@ public class UploadUser {
     }
 
 
+
+
+
     public JsonResult getSTS(String accountId, String roleName, String roleSessionName) {
         try {
             IClientProfile icprofile = DefaultProfile.getProfile("", "LTAI4G5WQrHHVKAhczoa29rk", "Xe9clWf19MDfieJzyPQBItj8wkymki");
@@ -229,7 +230,7 @@ public class UploadUser {
                     "    \"Version\": \"1\"\n" +
                     "}"); // Optional
             final AssumeRoleResponse response = client.getAcsResponse(request);
-            return new JsonResult(200, "获取sts临时凭证成功", response);
+            return new JsonResult(200, "获取sts临时凭证成功",  response);
         } catch (Exception e) {
             log.info("Error Message: " + e.getMessage());
             return new JsonResult(500, "获取sts临时凭证失败", null);

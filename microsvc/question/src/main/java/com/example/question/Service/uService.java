@@ -9,11 +9,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
 
-@FeignClient(value = "userClient", fallback = Hystrix.class)
+@FeignClient(value = "userClient",fallback = Hystrix.class)
 public interface uService {
     @RequestMapping("/hello")
     String hello();
-
     @GetMapping("/users")
     List users();
 }

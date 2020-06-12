@@ -13,13 +13,12 @@ import org.springframework.context.annotation.Bean;
 @EnableZuulProxy
 public class ZuulApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(ZuulApplication.class, args);
-    }
-
-    @Bean
-    public AccessFilter accessFilter() {
-        return new AccessFilter();
-    }
+  public static void main(String[] args) {
+    SpringApplication.run(ZuulApplication.class, args);
+  }
+  @Bean
+  public AccessFilter accessFilter(){
+    return new AccessFilter();
+  }
 
 }

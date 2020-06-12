@@ -7,6 +7,7 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 
+
 @ServletComponentScan
 @EnableEurekaServer
 @SpringBootApplication(exclude = DataSourceAutoConfiguration.class)

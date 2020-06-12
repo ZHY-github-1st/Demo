@@ -28,14 +28,14 @@ public class QuestionController {
     public String questionhello() {
         return helloService.hello();
     }
-
     @RequestMapping("/invoker-question/users")
-    public List users() {
+    public List users()
+    {
         return helloService.users();
     }
 
     @RequestMapping("/list")
-    public void list() {
+    public void list(){
         questionRepository.findAll();
     }
 }
