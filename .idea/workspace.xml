@@ -190,6 +190,10 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="shiro" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="question" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
@@ -222,6 +226,11 @@
             <path>
               <item name="edu" type="b2602c69:ProjectViewProjectNode" />
               <item name="microsvc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microsvc" type="462c0819:PsiDirectoryNode" />
+              <item name="Gateway+JWT" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -526,7 +535,7 @@
       <workItem from="1591575051008" duration="26216000" />
       <workItem from="1591661607572" duration="22412000" />
       <workItem from="1591834436074" duration="12955000" />
-      <workItem from="1591920776910" duration="3788000" />
+      <workItem from="1591920776910" duration="4270000" />
     </task>
     <servers />
   </component>
@@ -563,13 +572,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175535000" />
+    <option name="totallyTimeSpent" value="176017000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.32792208" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.32792208" />
       <window_info anchor="right" id="Maven Projects" order="0" visible="true" weight="0.31023455" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
@@ -589,7 +598,7 @@
       <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="9" weight="0.32827735" />
       <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49946696" visible="true" weight="0.32792208" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49946696" visible="true" weight="0.25108224" />
       <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.20415778" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info id="Web" order="4" side_tool="true" />
