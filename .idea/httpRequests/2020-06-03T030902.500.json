@@ -1,0 +1,7 @@
+{
+  "timestamp": "2020-06-03T07:09:02.857+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "No default constructor for entity:  : com.example.user.pojo.User$UserEntity; nested exception is org.hibernate.InstantiationException: No default constructor for entity:  : com.example.user.pojo.User$UserEntity",
+  "path": "/users"
+}

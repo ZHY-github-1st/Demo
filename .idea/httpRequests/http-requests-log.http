@@ -1,0 +1,86 @@
+GET http://localhost:8762/test
+
+###
+
+GET http://localhost:8762/test
+
+###
+
+GET http://localhost:8762/users
+
+<> 2020-06-03T031023.500.json
+
+###
+
+GET http://localhost:8762/users
+
+<> 2020-06-03T030950.500.json
+
+###
+
+GET http://localhost:8762/users
+
+<> 2020-06-03T030902.500.json
+
+###
+
+GET http://localhost:8762/users
+
+<> 2020-06-03T030846.500.json
+
+###
+
+GET http://localhost:8762/users
+
+<> 2020-06-03T024639.500.json
+
+###
+
+GET http://localhost:8762/users
+
+<> 2020-06-03T024132.500.json
+
+###
+
+GET http://localhost:8762/users
+
+<> 2020-06-03T023854.500.json
+
+###
+
+GET http://localhost:8762/users
+
+<> 2020-06-03T023832.500.json
+
+###
+
+GET http://localhost:8762/users
+
+<> 2020-06-03T023748.500.json
+
+###
+
+GET http://localhost:8762/users
+
+<> 2020-06-03T023716.200.json
+
+###
+
+GET http://localhost:8762/users
+
+<> 2020-06-03T022245.200.json
+
+###
+
+GET http://localhost:8762/test
+
+<> 2020-06-03T021847.500.json
+
+###
+
+GET http://localhost:8762/test
+
+<> 2020-06-03T021612.500.json
+
+###
+

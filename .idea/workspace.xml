@@ -1,0 +1,1192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="edu" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="microsvc" />
+    </loaded-modules>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/microsvc/question/src/main/java/com/example/question/repository/QuestionRepository.java" line="5" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dba6e689-2f44-4d8d-a623-a00e93fd3052" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/microsvc/target/" />
+    <ignored path="$PROJECT_DIR$/other/target/" />
+    <ignored path="$PROJECT_DIR$/microsvc/user/target/" />
+    <ignored path="$PROJECT_DIR$/microsvc/question/target/" />
+    <ignored path="$PROJECT_DIR$/zuul/target/" />
+    <ignored path="$PROJECT_DIR$/microsvc/zuul/target/" />
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
+    <ignored path="$PROJECT_DIR$/microsvc/user1/target/" />
+    <ignored path="$PROJECT_DIR$/microsvc/gateway/target/" />
+    <ignored path="D:/Program Files/Gateway+JWT/target/" />
+    <ignored path="$PROJECT_DIR$/microsvc/Gateway+JWT/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/edu$MicrosvcApplication.ic" NAME="MicrosvcApplication Coverage Results" MODIFIED="1591666281947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="JwtCheckAop.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microsvc/Gateway+JWT/src/main/java/com/lzx/gateway/aop/JwtCheckAop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microsvc/Gateway+JWT/src/main/java/com/lzx/gateway/controller/AuthController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="858">
+              <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/microsvc/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>libstarter</find>
+      <find>yx-lib</find>
+      <find>com.yx</find>
+      <find>spring-boot-starters</find>
+      <find>netty</find>
+      <find>cloud-starter-</find>
+      <find>spring-cloud</find>
+      <find>spring</find>
+      <find>spring-cloud-starter</find>
+      <find>openf</find>
+      <find>dependencies</find>
+      <find>openfei</find>
+      <find>file</find>
+      <find>jpa</find>
+      <find>ju</find>
+      <find>springframework.data</find>
+      <find>springframework.</find>
+      <find>springframework</find>
+      <find>spring-boot-starter</find>
+      <find>3.0.1</find>
+      <find>yx</find>
+      <find>cloud-config</find>
+      <find>cloud-dependencies</find>
+      <find>hys</find>
+      <find>eure</find>
+      <find>mysql</find>
+      <find>gateway</find>
+      <find>cloud</find>
+      <find>spring-boot-configuration</find>
+      <find>redis</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>'</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/microsvc/Gateway+JWT" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/microsvc/user/src/main/java/com/example/user/entity/User.java" />
+        <option value="$PROJECT_DIR$/microsvc/user/src/main/java/com/example/user/dao/spring-dao.xml" />
+        <option value="$PROJECT_DIR$/microsvc/user/src/main/java/com/example/user/Controller/File.java" />
+        <option value="$PROJECT_DIR$/microsvc/src/main/java/com/example/microsvc/Shiro/MyShiroRealm.java" />
+        <option value="$PROJECT_DIR$/microsvc/user/src/main/java/com/example/user/Controller/Test.java" />
+        <option value="$PROJECT_DIR$/microsvc/zuul/zuul.iml" />
+        <option value="$PROJECT_DIR$/microsvc/user/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/microsvc/user/src/main/java/com/example/user/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/microsvc/user/src/main/java/com/example/user/pojo/User.java" />
+        <option value="$PROJECT_DIR$/microsvc/user/src/main/java/com/example/user/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/microsvc/user/src/main/java/com/example/user/Controller/TestController.java" />
+        <option value="$PROJECT_DIR$/microsvc/user/src/main/java/com/example/user/Service/UserService.java" />
+        <option value="$PROJECT_DIR$/microsvc/user/src/main/java/com/example/user/Service/Imp/UserServiceImp.java" />
+        <option value="$PROJECT_DIR$/microsvc/user/src/main/java/com/example/user/Controller/UploadUser.java" />
+        <option value="$PROJECT_DIR$/microsvc/zuul/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/microsvc/user/src/main/java/com/example/user/Service/ServletConfigBean.java" />
+        <option value="$PROJECT_DIR$/microsvc/src/main/java/com/example/microsvc/ServletConfigBean.java" />
+        <option value="$PROJECT_DIR$/microsvc/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microsvc/question/src/main/java/com/example/question/repository/QuestionRepository.java" />
+        <option value="$PROJECT_DIR$/microsvc/user/pom.xml" />
+        <option value="$PROJECT_DIR$/microsvc/question/src/main/java/com/example/question/Controller/QuestionController.java" />
+        <option value="$PROJECT_DIR$/microsvc/user/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microsvc/question/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microsvc/question/src/main/java/com/example/question/Service/Hystrix.java" />
+        <option value="$PROJECT_DIR$/microsvc/question/src/main/java/com/example/question/Service/uService.java" />
+        <option value="$PROJECT_DIR$/microsvc/user/src/main/java/com/example/user/Controller/UserController.java" />
+        <option value="$PROJECT_DIR$/microsvc/question/src/main/java/com/example/question/QuestionApplication.java" />
+        <option value="$PROJECT_DIR$/microsvc/src/main/java/com/example/microsvc/MicrosvcApplication.java" />
+        <option value="$PROJECT_DIR$/microsvc/user/src/main/java/com/example/user/UserApplication.java" />
+        <option value="$PROJECT_DIR$/microsvc/question/src/main/java/com/example/question/ServletConfigBean.java" />
+        <option value="$PROJECT_DIR$/microsvc/user1/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microsvc/user1/src/main/java/com/example/user/Controller/UserController.java" />
+        <option value="$PROJECT_DIR$/microsvc/zuul/src/main/java/com/example/zuul/Provider/ZuulFallbackProvider.java" />
+        <option value="$PROJECT_DIR$/microsvc/zuul/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microsvc/zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/microsvc/zuul/src/main/java/com/example/zuul/Provider/ProducerFallback.java" />
+        <option value="$PROJECT_DIR$/microsvc/gateway/src/main/java/com/example/gateway/Route.java" />
+        <option value="$PROJECT_DIR$/microsvc/gateway/src/main/resources/META-INF/additional-spring-configuration-metadata.json" />
+        <option value="$PROJECT_DIR$/microsvc/gateway/src/main/resources/2.yml" />
+        <option value="$PROJECT_DIR$/microsvc/META-INF/additional-spring-configuration-metadata.json" />
+        <option value="$PROJECT_DIR$/microsvc/gateway/src/main/java/com/example/gateway/GatewayApplication.java" />
+        <option value="$PROJECT_DIR$/microsvc/gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/microsvc/question/pom.xml" />
+        <option value="D:/Program Files/Gateway+JWT/src/main/java/com/lzx/gateway/aop/JwtCheckAop.java" />
+        <option value="$PROJECT_DIR$/microsvc/gateway/src/main/resources/application.yml" />
+        <option value="D:/Program Files/Gateway+JWT/src/main/java/com/lzx/gateway/dto/UserDTO.java" />
+        <option value="D:/Program Files/Gateway+JWT/src/main/java/com/lzx/gateway/dto/User.java" />
+        <option value="D:/Program Files/Gateway+JWT/pom.xml" />
+        <option value="D:/Program Files/Gateway+JWT/src/main/java/com/lzx/gateway/jwt/JwtUtil.java" />
+        <option value="$PROJECT_DIR$/microsvc/Gateway+JWT/src/main/java/com/lzx/gateway/controller/AuthController.java" />
+        <option value="$PROJECT_DIR$/microsvc/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="241" />
+    <option name="y" value="35" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="false" />
+      <sortByType ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="edu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microsvc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microsvc" type="462c0819:PsiDirectoryNode" />
+              <item name="Gateway+JWT" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microsvc" type="462c0819:PsiDirectoryNode" />
+              <item name="Gateway+JWT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microsvc" type="462c0819:PsiDirectoryNode" />
+              <item name="Gateway+JWT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microsvc" type="462c0819:PsiDirectoryNode" />
+              <item name="Gateway+JWT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microsvc" type="462c0819:PsiDirectoryNode" />
+              <item name="Gateway+JWT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microsvc" type="462c0819:PsiDirectoryNode" />
+              <item name="Gateway+JWT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lzx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microsvc" type="462c0819:PsiDirectoryNode" />
+              <item name="Gateway+JWT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lzx" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microsvc" type="462c0819:PsiDirectoryNode" />
+              <item name="Gateway+JWT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lzx" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microsvc" type="462c0819:PsiDirectoryNode" />
+              <item name="Gateway+JWT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lzx" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microsvc" type="462c0819:PsiDirectoryNode" />
+              <item name="Gateway+JWT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lzx" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microsvc" type="462c0819:PsiDirectoryNode" />
+              <item name="Gateway+JWT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lzx" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microsvc" type="462c0819:PsiDirectoryNode" />
+              <item name="Gateway+JWT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lzx" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="jwt" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="RouteDefinitionRepository&#9;FILE&#9;jar://C:/Users/admin/.m2/repository/org/springframework/cloud/spring-cloud-gateway-core/2.0.2.RELEASE/spring-cloud-gateway-core-2.0.2.RELEASE.jar!/org/springframework/cloud/gateway/route/RouteDefinitionRepository.class&#10;RouteDefinition&#9;PSI&#9;JAVA://org.springframework.cloud.gateway.route.RouteDefinition&#10;Ribbonrout&#9;FILE&#9;jar://C:/Users/admin/.m2/repository/org/springframework/cloud/spring-cloud-netflix-zuul/2.2.2.RELEASE/spring-cloud-netflix-zuul-2.2.2.RELEASE.jar!/org/springframework/cloud/netflix/zuul/filters/route/RibbonRoutingFilter.class&#10;EnableJpaRepositoriesConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration&#10;EnableJpaRepositories&#9;PSI&#9;JAVA://org.springframework.data.jpa.repository.config.EnableJpaRepositories&#10;reactive.&#9;FILE&#9;jar://C:/Users/admin/.m2/repository/org/springframework/spring-core/5.0.12.RELEASE/spring-core-5.0.12.RELEASE.jar!/org/springframework/core/ReactiveAdapter.class&#10;org.springframework.cloud&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.cloud.CloudAutoConfiguration&#10;libstarter&#9;FILE&#9;jar://C:/Users/admin/.m2/repository/com/yx/yx-lib-spring-boot-starter/3.0.1-SNAPSHOT/yx-lib-spring-boot-starter-3.0.1-20200601.023449-15.jar!/com/yx/libstarter&#10;RedissonConfig&#9;FILE&#9;jar://C:/Users/admin/.m2/repository/com/yx/yx-lib-spring-boot-starter/3.0.1-SNAPSHOT/yx-lib-spring-boot-starter-3.0.1-20200601.023449-15.jar!/com/yx/libstarter/redis/RedissonConfig.class&#10;RedissonConfig.class&#9;FILE&#9;jar://C:/Users/admin/.m2/repository/com/yx/yx-lib-spring-boot-starter/3.0.1-SNAPSHOT/yx-lib-spring-boot-starter-3.0.1-20200601.023449-15.jar!/com/yx/libstarter/redis/RedissonConfig.class&#10;eurekaRegistration&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration&#10;ConfigServletWebServerApplicationContext&#9;PSI&#9;JAVA://org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext&#10;Mongodb&#9;PSI&#9;JAVA://org.springframework.data.mongodb.util.MongoDbErrorCodes&#10;URLConfigurationSource&#9;PSI&#9;JAVA://com.netflix.config.sources.URLConfigurationSource&#10;ResourceHttpRequestHandler&#9;PSI&#9;JAVA://org.springframework.web.servlet.resource.ResourceHttpRequestHandler" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/microsvc" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Lombok plugin" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.user.Controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.question" />
+      <recent name="com.example.user" />
+      <recent name="com.example.microsvc" />
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Program Files\ideaProjects\edu\microsvc" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Program Files\ideaProjects\edu\microsvc" />
+      <recent name="E:\Program Files\ideaProjects\edu\microsvc\gateway\src\main\resources" />
+      <recent name="E:\Program Files\ideaProjects\edu\microsvc\user\src\main\resources\lib" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.user.Controller" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8762/test" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8762/users" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.17739318" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.MicrosvcApplication">
+    <configuration name="JwtUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzx.gateway.jwt.JwtUtil" />
+      <module name="myGateway" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzx.gateway.jwt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ProducerFallback" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.zuul.Provider.ProducerFallback" />
+      <module name="zuul" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.zuul.Provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.user.Controller.Test" />
+      <module name="user" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.user.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="TestController" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.user.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.example.user.Controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.user.Controller.TestController" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestController.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.user.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.example.user.Controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.user.Controller.TestController" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="zuul" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.gateway.GatewayApplication" />
+    </configuration>
+    <configuration name="MicrosvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microsvc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.microsvc.MicrosvcApplication" />
+    </configuration>
+    <configuration name="MyGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="myGateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzx.gateway.MyGatewayApplication" />
+    </configuration>
+    <configuration name="QuestionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="question" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.question.QuestionApplication" />
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.user.UserApplication" />
+    </configuration>
+    <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.zuul.ZuulApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.MicrosvcApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.QuestionApplication" />
+      <item itemvalue="Spring Boot.ZuulApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.MyGatewayApplication" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="JUnit.TestController" />
+      <item itemvalue="JUnit.TestController.Test" />
+      <item itemvalue="Application.ProducerFallback" />
+      <item itemvalue="Application.JwtUtil" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JwtUtil" />
+        <item itemvalue="Application.ProducerFallback" />
+        <item itemvalue="JUnit.TestController.Test" />
+        <item itemvalue="JUnit.TestController" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dba6e689-2f44-4d8d-a623-a00e93fd3052" name="Default" comment="" />
+      <created>1590654808250</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590654808250</updated>
+      <workItem from="1590654809598" duration="3636000" />
+      <workItem from="1590658472444" duration="567000" />
+      <workItem from="1590710211126" duration="1473000" />
+      <workItem from="1590732495915" duration="1639000" />
+      <workItem from="1590743409408" duration="2018000" />
+      <workItem from="1590745454166" duration="1499000" />
+      <workItem from="1590746957135" duration="523000" />
+      <workItem from="1590796581582" duration="2526000" />
+      <workItem from="1590799194142" duration="2834000" />
+      <workItem from="1590823092930" duration="8107000" />
+      <workItem from="1591056740734" duration="12791000" />
+      <workItem from="1591142591598" duration="5514000" />
+      <workItem from="1591166996876" duration="6777000" />
+      <workItem from="1591230151470" duration="8578000" />
+      <workItem from="1591253489810" duration="1967000" />
+      <workItem from="1591316113644" duration="22732000" />
+      <workItem from="1591402169638" duration="2227000" />
+      <workItem from="1591404418742" duration="8192000" />
+      <workItem from="1591412730682" duration="1559000" />
+      <workItem from="1591423467028" duration="15005000" />
+      <workItem from="1591575051008" duration="26216000" />
+      <workItem from="1591661607572" duration="22412000" />
+      <workItem from="1591834436074" duration="12955000" />
+      <workItem from="1591920776910" duration="3074000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestController_Test - 2020.06.06 at 15h 17m 39s.xml">
+      <configuration name="TestController.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestController_Test - 2020.06.06 at 15h 17m 55s.xml">
+      <configuration name="TestController.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestController_Test - 2020.06.06 at 15h 18m 16s.xml">
+      <configuration name="TestController.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestController_Test - 2020.06.06 at 15h 21m 23s.xml">
+      <configuration name="TestController.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestController_Test - 2020.06.06 at 15h 22m 27s.xml">
+      <configuration name="TestController.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestController_Test - 2020.06.06 at 15h 22m 56s.xml">
+      <configuration name="TestController.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestController_Test - 2020.06.06 at 15h 24m 09s.xml">
+      <configuration name="TestController.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestController_Test - 2020.06.06 at 15h 25m 38s.xml">
+      <configuration name="TestController.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestController_Test - 2020.06.06 at 15h 28m 23s.xml">
+      <configuration name="TestController.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestController_Test - 2020.06.06 at 15h 33m 48s.xml">
+      <configuration name="TestController.Test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="174821000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.33549783" />
+      <window_info anchor="right" id="Maven Projects" order="0" visible="true" weight="0.31023455" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="0" />
+      <window_info anchor="right" id="Database" order="2" weight="0.32995737" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.39935064" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.32900432" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="1" />
+      <window_info anchor="bottom" id="Java Enterprise" order="3" weight="0.32900432" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49946696" weight="0.33586133" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.32827735" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32900432" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.20415778" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="15" weight="0.32900432" />
+      <window_info id="Alibaba Cloud Explorer" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32900432" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32995737" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.0.2.RELEASE/spring-cloud-gateway-core-2.0.2.RELEASE.jar!/org/springframework/cloud/gateway/route/InMemoryRouteDefinitionRepository.class</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="33" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.1.10.RELEASE/reactor-core-3.1.10.RELEASE.jar!/reactor/core/publisher/MonoFlattenIterable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.1.10.RELEASE/reactor-core-3.1.10.RELEASE.jar!/reactor/core/publisher/FluxDematerialize.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.1.10.RELEASE/reactor-core-3.1.10.RELEASE.jar!/reactor/core/publisher/FluxDefer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.1.10.RELEASE/reactor-core-3.1.10.RELEASE.jar!/reactor/core/publisher/MonoMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.1.10.RELEASE/reactor-core-3.1.10.RELEASE.jar!/reactor/core/publisher/FluxIterable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.1.10.RELEASE/reactor-core-3.1.10.RELEASE.jar!/reactor/core/publisher/FluxConcatMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.1.10.RELEASE/reactor-core-3.1.10.RELEASE.jar!/reactor/core/publisher/MonoNext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.1.10.RELEASE/reactor-core-3.1.10.RELEASE.jar!/reactor/core/publisher/MonoSwitchIfEmpty.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.1.10.RELEASE/reactor-core-3.1.10.RELEASE.jar!/reactor/core/publisher/MonoFlatMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.1.10.RELEASE/reactor-core-3.1.10.RELEASE.jar!/reactor/core/publisher/MonoDefer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.1.10.RELEASE/reactor-core-3.1.10.RELEASE.jar!/reactor/core/publisher/MonoOnErrorResume.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.1.10.RELEASE/reactor-core-3.1.10.RELEASE.jar!/reactor/core/publisher/Mono.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="840" selection-start-line="840" selection-end-line="840" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.1.10.RELEASE/reactor-core-3.1.10.RELEASE.jar!/reactor/core/publisher/MonoIgnoreThen.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.1.10.RELEASE/reactor-core-3.1.10.RELEASE.jar!/reactor/core/publisher/MonoPeekFuseable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.1.10.RELEASE/reactor-core-3.1.10.RELEASE.jar!/reactor/core/publisher/MonoPeekTerminal.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/ipc/reactor-netty/0.7.10.RELEASE/reactor-netty-0.7.10.RELEASE.jar!/reactor/ipc/netty/channel/ChannelOperations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="241" column="41" selection-start-line="241" selection-start-column="41" selection-end-line="241" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/ipc/reactor-netty/0.7.10.RELEASE/reactor-netty-0.7.10.RELEASE.jar!/reactor/ipc/netty/http/server/HttpServerOperations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="306" selection-start-line="306" selection-end-line="306" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.29.Final/netty-common-4.1.29.Final.jar!/io/netty/util/concurrent/AbstractEventExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="117" column="54" selection-start-line="117" selection-start-column="54" selection-end-line="117" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.29.Final/netty-transport-4.1.29.Final.jar!/io/netty/channel/nio/NioEventLoop.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="292" selection-start-line="292" selection-end-line="292" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.29.Final/netty-common-4.1.29.Final.jar!/io/netty/util/concurrent/SingleThreadEventExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="296" selection-start-line="296" selection-end-line="296" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.0.2.RELEASE/spring-cloud-gateway-core-2.0.2.RELEASE.jar!/org/springframework/cloud/gateway/route/Route.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3893">
+          <caret line="206" selection-start-line="206" selection-end-line="206" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microsvc/user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microsvc/gateway/src/main/resources/META-INF/additional-spring-configuration-metadata.json" />
+    <entry file="file://$PROJECT_DIR$/microsvc/gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="14" lean-forward="true" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microsvc/META-INF/additional-spring-configuration-metadata.json" />
+    <entry file="file://$PROJECT_DIR$/microsvc/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microsvc/question/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microsvc/user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microsvc/gateway/src/main/java/com/example/gateway/Route.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Gateway+JWT/src/main/java/com/lzx/gateway/annotation/JwtCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microsvc/gateway/src/main/java/com/example/gateway/GatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Gateway+JWT/src/main/java/com/lzx/gateway/MyGatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microsvc/gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Gateway+JWT/src/main/java/com/lzx/gateway/annotation/ExecuteTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Gateway+JWT/src/main/java/com/lzx/gateway/aop/JwtCheckAop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+          <folding>
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1122#1123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microsvc/gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/jre/lib/jce.jar!/javax/crypto/spec/SecretKeySpec.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="30" column="66" lean-forward="true" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.11/commons-codec-1.11.jar!/org/apache/commons/codec/binary/BaseNCodec.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="132" column="51" lean-forward="true" selection-start-line="132" selection-start-column="51" selection-end-line="132" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.11/commons-codec-1.11.jar!/org/apache/commons/codec/binary/Base64.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="254" column="33" selection-start-line="254" selection-start-column="33" selection-end-line="254" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Gateway+JWT/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Gateway+JWT/src/main/java/com/lzx/gateway/dto/UserDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Gateway+JWT/src/main/java/com/lzx/gateway/controller/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Gateway+JWT/src/main/java/com/lzx/gateway/dto/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Gateway+JWT/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2002">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.70/fastjson-1.2.70.jar!/com/alibaba/fastjson/serializer/SerializeWriter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="61" column="22" lean-forward="true" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.70/fastjson-1.2.70.jar!/com/alibaba/fastjson/JSON.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="524" column="22" lean-forward="true" selection-start-line="524" selection-start-column="22" selection-end-line="524" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Gateway+JWT/src/main/java/com/lzx/gateway/jwt/JwtUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="135" column="20" lean-forward="true" selection-start-line="135" selection-start-column="20" selection-end-line="135" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microsvc/Gateway+JWT/src/main/java/com/lzx/gateway/aop/JwtCheckAop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microsvc/Gateway+JWT/src/main/java/com/lzx/gateway/auth/JwtTokenFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-280">
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microsvc/Gateway+JWT/src/main/java/com/lzx/gateway/controller/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microsvc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>edu</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|microsvc</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

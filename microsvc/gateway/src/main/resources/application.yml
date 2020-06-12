@@ -1,0 +1,52 @@
+server:
+  port: 8080
+eureka:
+#  instanc中的配置是让该服务使用IP注册到注册中心，而不是hostname
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+  client:
+    service-url:
+     defaultZone: http://127.0.0.1:8761/eureka/
+spring:
+  application:
+    name: gatewayClient
+#  datasource:
+#    driverClassName: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/edu?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT
+#    username: root
+#    password: 1109
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+#     每个属性列表的第一条之前添加 "-"
+#      单个路由的唯一ID，一般与application.name配合使用
+        - id : gateway-user
+#         输入地址
+          predicates:
+            - Path=/user/**
+#         过滤第一个名称   {host}:{port}/user/hello   →  {host}:{port}/hello
+          filters:
+            - StripPrefix=1
+#         映射地址   "lb://"+serviceId    serviceId为注册中心id  不添加lower-case-service-id:true时需要大写
+          uri: lb://userclient
+
+        - id : gateway-question
+          predicates:
+            - Path=/question/**
+          filters:
+            - StripPrefix=1
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        - predicates:
+#            - Path=/java/**
+#          filters:
+#            - StripPrefix=1
+#          uri: "http://localhost:8762/hello"
+
