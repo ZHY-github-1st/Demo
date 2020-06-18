@@ -18,6 +18,10 @@
         <option value="$PROJECT_DIR$/microsvc/question/pom.xml" />
         <option value="$PROJECT_DIR$/gateway/pom.xml" />
         <option value="$PROJECT_DIR$/microsvc/Gateway+JWT/pom.xml" />
+        <option value="$PROJECT_DIR$/microsvc/pom.xml" />
+        <option value="$PROJECT_DIR$/microsvc/shiro/pom.xml" />
+        <option value="D:/Program Files/mybatis-plus-samples/mybatis-plus-sample-active-record/pom.xml" />
+        <option value="$PROJECT_DIR$/microsvc/security/pom.xml" />
       </list>
     </option>
   </component>

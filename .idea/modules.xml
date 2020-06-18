@@ -5,8 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/microsvc/gateway/gateway.iml" filepath="$PROJECT_DIR$/microsvc/gateway/gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/microsvc/microsvc.iml" filepath="$PROJECT_DIR$/microsvc/microsvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/microsvc/Gateway+JWT/myGateway.iml" filepath="$PROJECT_DIR$/microsvc/Gateway+JWT/myGateway.iml" />
+      <module fileurl="file://D:/Program Files/mybatis-plus-samples/mybatis-plus-sample-active-record/mybatis-plus-sample-active-record.iml" filepath="D:/Program Files/mybatis-plus-samples/mybatis-plus-sample-active-record/mybatis-plus-sample-active-record.iml" />
       <module fileurl="file://$PROJECT_DIR$/microsvc/question/question.iml" filepath="$PROJECT_DIR$/microsvc/question/question.iml" />
-      <module fileurl="file://$PROJECT_DIR$/microsvc/shiro.iml" filepath="$PROJECT_DIR$/microsvc/shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microsvc/security/security.iml" filepath="$PROJECT_DIR$/microsvc/security/security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microsvc/shiro/shiro.iml" filepath="$PROJECT_DIR$/microsvc/shiro/shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/microsvc/user/user.iml" filepath="$PROJECT_DIR$/microsvc/user/user.iml" />
       <module fileurl="file://$PROJECT_DIR$/microsvc/zuul/zuul.iml" filepath="$PROJECT_DIR$/microsvc/zuul/zuul.iml" />
     </modules>

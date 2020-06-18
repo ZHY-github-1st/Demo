@@ -3,6 +3,7 @@ package com.example.user.Controller;
 import com.aliyun.oss.OSS;
 import com.aliyun.oss.OSSClientBuilder;
 import com.aliyuncs.sts.model.v20150401.AssumeRoleResponse;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.example.user.pojo.User;
 import com.example.user.dao.UserMapper;
 import com.example.user.repository.UserRepository;
@@ -37,6 +38,16 @@ public class UserController {
     @Autowired
     private UploadUser uploadUser;
 
+    @Autowired
+    private UserMapper userMapper;
+
+    @RequestMapping("/list")
+    public List<User> list(){
+        QueryWrapper qw = new QueryWrapper();
+//        qw.select("username");
+        List list = userMapper.selectList(null);
+        return list;
+    }
     @RequestMapping("/test")
     public void getImgUrl(HttpServletRequest request) throws Exception{
 //        QueryWrapper<User> wrapper = new QueryWrapper<>();
@@ -108,6 +119,9 @@ public class UserController {
         User userEntity = new User();
         userEntity.setUsername(username);
         userEntity.setPassword(password);
+        QueryWrapper queryWrapper = new QueryWrapper<User>();
+        queryWrapper.eq("username",userEntity.getUsername());
+
         return userRepository.save(userEntity);
     }
 

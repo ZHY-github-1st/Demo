@@ -8,8 +8,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="gateway" />
+        <module name="mybatis-plus-sample-active-record" />
         <module name="myGateway" />
         <module name="question" />
+        <module name="security" />
         <module name="shiro" />
         <module name="user" />
         <module name="zuul" />
@@ -18,9 +20,11 @@
     <bytecodeTargetLevel>
       <module name="gateway" target="1.8" />
       <module name="microsvc" target="1.8" />
+      <module name="mybatis-plus-sample-active-record" target="1.8" />
       <module name="myGateway" target="1.8" />
       <module name="myGateway (1)" target="1.8" />
       <module name="question" target="1.8" />
+      <module name="security" target="1.8" />
       <module name="shiro" target="1.8" />
       <module name="user" target="1.8" />
       <module name="user (1)" target="1.8" />
